@@ -24,9 +24,6 @@ var stateCodes = [
   { state: "success" }
 ];
 function sendErrorCodes(data, returnArray) {
-  // var retrunError = { title: "null", message: "null" };
-  //console.log(data);
-
   if (data === "NO_STOCK") {
     console.log(returnArray.NO_STOCK);
   } else if (data === "INCORRECT_DETAILS") {
